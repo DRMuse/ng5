@@ -1,0 +1,14 @@
+To deploy to github, do
+ng build --prod --base-href="myurl"
+
+Setup new github repo called "ng5"
+
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:drmuse/ng5.git
+git push -u origin master
+
+
+ng build --prod -base-href="https://drmuse.github.io/ng5"
+
+angular-cli-ghpages
